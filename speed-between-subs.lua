@@ -1,7 +1,7 @@
 ---user settings---
-local WaitTime = 3 --how long until we try to enter "fast" mode
-local lookAhead = 3 --how far ahead to look for subtitles when trying to enter "fast" mode
-local fast = 2 --how fast "fast" mode is by default
+local WaitTime = 4 --how long until we try to enter "fast" mode
+local lookAhead = 4 --how far ahead to look for subtitles when trying to enter "fast" mode
+local fast = 1.3 --how fast "fast" mode is by default
 local rewind = 0 --how far to rewind when entering normal mode; note that if this is more than or equal to WaitTime + lookAhead you will probably enter an infinite loop
 ---
 local searchtimer
